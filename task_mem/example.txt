@@ -1,0 +1,3 @@
+heap - 55f30face000-55f30faef000
+stack - 7ffcba391000-7ffcba3b2000
+MMS - 7ff560534000-7ff56071b000
