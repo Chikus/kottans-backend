@@ -49,6 +49,13 @@ ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsysca
 ```
 `Heap - 55f30face000-55f30faef000`, `Stack - 7ffcba391000-7ffcba3b2000`, `MMS - 7ff560534000-7ff56071b000`
 
-What is new to you: all
-What surprised you: I understand why use functions
-What you intend to use in the future: Verify my code with tools to avoid mem leaks, this is very important because the code will run all time in a server forever.
+_What is new to you_: all
+_What surprised you_: I understand why use functions
+_What you intend to use in the future_: Verify my code with tools to avoid mem leaks, this is very important because the code will run all time in a server forever.
+
+## TCP. UDP Network
+![TCP0](task_networks/internet101.png)
+![TCP1](task_networks/udacity.png)
+_What is new to you_: All
+_What surprised you_: It was a cool video internet101, I liked a lot
+_What you intend to use in the future_: Reduction functionality so cool
