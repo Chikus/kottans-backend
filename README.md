@@ -50,12 +50,38 @@ ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsysca
 `Heap - 55f30face000-55f30faef000`, `Stack - 7ffcba391000-7ffcba3b2000`, `MMS - 7ff560534000-7ff56071b000`
 
 _What is new to you_: all
+
 _What surprised you_: I understand why use functions
+
 _What you intend to use in the future_: Verify my code with tools to avoid mem leaks, this is very important because the code will run all time in a server forever.
 
 ## TCP. UDP Network
 ![TCP0](task_networks/internet101.png)
 ![TCP1](task_networks/udacity.png)
 _What is new to you_: All
+
 _What surprised you_: It was a cool video internet101, I liked a lot
+
 _What you intend to use in the future_: Reduction functionality so cool
+
+## HTTP & HTTPS
+```
+    curl https://api.github.com/users/Chikus
+    curl -i https://api.github.com/users/Chikus
+    curl --user "Chikus:blabla" https://api.github.com/gists/starred
+    curl --user "Chikus:*******" https://api.github.com/gists/starred
+    curl --user "Chikus" https://api.github.com/gists/starred
+    curl -i https://api.github.com/orgs/kottans/repos
+    curl --user "Chikus" -X POST -d '{"title":"New issue","body":"Tutorial issue test","labels":["test_bug"]}' https://api.github.com/repos/Chikus/kottans-backend/issues
+ ```
+1) Name at least three possible negative consequences of not using https.
+- No certificates, no keys, no authentication.
+2) Explain the main idea behind public key cryptography in few sentences
+- There are two type of key authentication, synchronous and asynchronous, in the case of syn there is only one type of key. and in asyn there are two keys one private an another public, basically public key is for ensure that only the receiver can open this message with the public key.
+3) You are creating an application for pet clinic. You need to implement the following functionality:
+- POST Status code:204 body add new pet (including name, age, breed, owner's name, medical history)
+- GET Status code:200 search pet by name
+- PUT Status code:204 change name of an existing pet
+- PUT Status code:204 add new info about pet's health
+- POST Status code:200 assign a pet to a particular doctor in the clinic
+- POST Status code:205 register an appointment for a pet. This request should include info about pet, doctor and appointment date and time.
