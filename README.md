@@ -85,3 +85,11 @@ _What you intend to use in the future_: Reduction functionality so cool
 - PUT Status code:204 add new info about pet's health
 - POST Status code:200 assign a pet to a particular doctor in the clinic
 - POST Status code:205 register an appointment for a pet. This request should include info about pet, doctor and appointment date and time.
+
+## Patterns
+![patterns](task_patterns/patterns.png)
+_What is new to you_: Different architectures
+
+_What surprised you_: Your request for this course, this is so long to finish
+
+_What you intend to use in the future_: To be honest, this course could be compress, just watch the section 8, and maybe give an introduction to UML, explanation of the main type of architectures and different between them, I think this is all what we need to know. Taking care how to design systems with high cohesion and low coupling.
