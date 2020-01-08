@@ -93,3 +93,7 @@ _What is new to you_: Different architectures
 _What surprised you_: Your request for this course, this is so long to finish
 
 _What you intend to use in the future_: To be honest, this course could be compress, just watch the section 8, and maybe give an introduction to UML, explanation of the main type of architectures and different between them, I think this is all what we need to know. Taking care how to design systems with high cohesion and low coupling.
+
+## File System
+![FS1](file_system/secret.txt)
+![FS2](file_system/file_system_task.js)
