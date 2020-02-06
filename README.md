@@ -97,3 +97,6 @@ _What you intend to use in the future_: To be honest, this course could be compr
 ## File System
 ![FS1](file_system/secret.txt)
 ![FS2](file_system/file_system_task.js)
+
+## Data Base Basic
+![Data_base](task_database/database.sql)
